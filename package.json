@@ -15,7 +15,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^13.2.0",
     "astro": "^6.1.9",
-    "evlog": "^2.13.0"
+    "evlog": "https://pkg.pr.new/evlog@311"
   },
   "devDependencies": {
     "@astrojs/react": "^5.0.4",

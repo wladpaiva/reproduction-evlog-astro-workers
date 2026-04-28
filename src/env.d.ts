@@ -1,4 +1,5 @@
 /// <reference types="astro/client" />
+/// <reference types="@astrojs/cloudflare" />
 
 import type { RequestLogger } from "evlog";
 

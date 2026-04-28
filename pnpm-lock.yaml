@@ -15,8 +15,8 @@ importers:
         specifier: ^6.1.9
         version: 6.1.9(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.60.2)(typescript@5.9.3)(yaml@2.8.3)
       evlog:
-        specifier: ^2.13.0
-        version: 2.13.0(h3@1.15.11)(ofetch@1.5.1)(react@19.2.5)(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))
+        specifier: https://pkg.pr.new/evlog@311
+        version: https://pkg.pr.new/evlog@311(h3@1.15.11)(ofetch@1.5.1)(react@19.2.5)(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))
     devDependencies:
       '@astrojs/react':
         specifier: ^5.0.4
@@ -1163,25 +1163,25 @@ packages:
   eventemitter3@5.0.4:
     resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
 
-  evlog@2.13.0:
-    resolution: {integrity: sha512-/tpm+MgS7p00O5400b+t7thKgeNBRPj56InQF1+XUloAuZIKtTN1NQlbQq3B+KvnYoBk+Md985sB7HAcJgd0uQ==}
+  evlog@https://pkg.pr.new/evlog@311:
+    resolution: {integrity: sha512-5DPn1voz3yXyNIjiLU3qKDHoFuag2AgzpsRF5mlb9RHdnP1JCiPv6tgIF6o4XyzprXdtufBk6+OAQNhwH9iVog==, tarball: https://pkg.pr.new/evlog@311}
+    version: 2.14.0
     peerDependencies:
-      '@nestjs/common': '>=11.1.18'
+      '@nestjs/common': '>=11.1.19'
       '@nuxt/kit': ^4.4.2
-      '@tanstack/start-client-core': ^1.167.9
-      ai: '>=6.0.154'
-      better-auth: '>=1.2.0'
+      '@tanstack/start-client-core': ^1.167.20
+      ai: '>=6.0.168'
       elysia: '>=1.4.28'
       express: '>=5.2.1'
-      fastify: '>=5.8.4'
+      fastify: '>=5.8.5'
       h3: ^1.15.11
       hono: ''
-      next: '>=16.2.3'
+      next: '>=16.2.4'
       nitro: ^3.0.260311-beta
       nitropack: ^2.13.3
       ofetch: ^1.5.1
       react: '>=19.2.5'
-      react-router: '>=7.14.0'
+      react-router: '>=7.14.2'
       vite: ^7.0.0 || ^8.0.0
     peerDependenciesMeta:
       '@nestjs/common':
@@ -1191,8 +1191,6 @@ packages:
       '@tanstack/start-client-core':
         optional: true
       ai:
-        optional: true
-      better-auth:
         optional: true
       elysia:
         optional: true
@@ -3156,7 +3154,7 @@ snapshots:
 
   eventemitter3@5.0.4: {}
 
-  evlog@2.13.0(h3@1.15.11)(ofetch@1.5.1)(react@19.2.5)(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3)):
+  evlog@https://pkg.pr.new/evlog@311(h3@1.15.11)(ofetch@1.5.1)(react@19.2.5)(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3)):
     optionalDependencies:
       h3: 1.15.11
       ofetch: 1.5.1
